@@ -9,21 +9,9 @@
     <script type="module" crossorigin src="/vueshka/assets/index-C-QhvCLf.js"></script>
     <link rel="stylesheet" crossorigin href="/vueshka/assets/index-Dkn5isMv.css">
       <link rel="stylesheet" href="main.css">
-      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
   </head>
   <body>
-    <div id="app"></div>
     <model-viewer src="intervale.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
-        <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
-        </div>
-        <button slot="ar-button" id="ar-button">
-            View in your space
-        </button>
-        <div id="ar-prompt">
-            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-        </div>
     </model-viewer>
-
   </body>
 </html>
